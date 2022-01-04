@@ -29,3 +29,13 @@ h1{
     display: flex;
 
 }
+.footer-part{
+    text-align: center;
+}
+
+.footer-part p{
+    color:rgb(25, 26, 18);
+    font-weight:700;
+    font-style: italic;
+    font-size: 15px;
+}
