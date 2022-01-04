@@ -6,5 +6,26 @@ body{
 
 section{
     margin-bottom: 145px;
+}
+
+
+h1{
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+
+.half_width{
+    width:45%;
+    padding-left:10%
+}
+
+.flexible_container{
+    display: flex;
 
 }
