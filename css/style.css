@@ -7,16 +7,13 @@ body{
 section{
     margin-bottom: 145px;
 }
+
+
 h1{
     font-style: italic;
     font-weight: 900;
 }
 
-.top_header{
-    display:flex;
-    background-image: url(../images/top-banner.png);
-    background-repeat: no-repeat;
-}
 
 .reverse{
     flex-direction: row-reverse;
@@ -27,6 +24,19 @@ h1{
     width:45%;
     padding-left:10%
 }
+
+.flexible_container{
+    display: flex;
+
+}
+    
+
+.top_header{
+    display:flex;
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
 
 .half_width img{
     width:75%;
