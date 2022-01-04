@@ -29,3 +29,176 @@ h1{
     display: flex;
 
 }
+
+
+.top_header{
+    background-image: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+.half_width img{
+    width:75%;
+
+}
+
+.top_header .half_width a.link_btn{
+    text-decoration: none;
+    background-image: repeating-linear-gradient(rgb(112, 6, 250),rgb(218, 66, 79));
+    padding: 12px 35px;
+    border-radius: 7px;
+    color: white;
+    font-weight:600;
+    margin-top:20px;
+}
+
+.top_header .half_width span{
+color:blue
+
+}
+
+.top_header .half_width h1{
+    font-size:60px;
+}
+
+.top_header .half_width p{
+    color:rgb(10, 5, 15);
+    font-size:15px;
+    font-weight:600;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.top_header .half_width h2 span{
+    color:rgb(107, 6, 99);
+    font-size:30px;
+    }
+    .top_header .half_width h2{
+        font-size:35px;
+    }
+
+    .dream-bg{
+        background-image: url(../images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .dream-bg .half_width img {
+        width:80%;
+    } 
+    .dream-bg .half_width a.link_btn{
+        text-decoration: none;
+        background-image: linear-gradient(rgb(7, 247, 87),rgb(247, 231, 7));
+        padding: 20px 40px;
+        margin-top:15px;
+        border-radius: 7px;
+        color: rgb(255, 0, 0);
+        font-weight:700;
+    }
+    
+    
+    .dream-bg .half_width h1 {
+        font-size:60px;
+        font-weight:700;
+    }
+    .dream-bg .half_width h1 span{
+        font-size:50px;
+        color:blueviolet;
+        font-weight:500;
+    
+    }
+    
+    .dream-bg .half_width h2 span{
+    
+        font-size:35px;
+        color:blueviolet;
+        font-weight:400;
+    
+    }
+    
+    .dream-bg .half_width h2{
+    
+        font-size:45px;
+        color:rgb(65, 44, 44);
+        font-weight:600;
+    
+    }
+    
+    
+    .dream-bg .half_width p{
+    color:rgb(13, 14, 13);
+    font-size:15px;
+    font-weight:300;
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-bottom: 40px;
+    
+    }
+
+
+    .experience-area{
+        background-image: url(../images/exp-bg.png);
+        background-repeat: no-repeat;
+    }
+    .experience-area h1{
+        font-size:60px;
+        font-style: bold !important;
+        font-weight:700;
+        color:rgb(17, 0, 255);
+        margin-bottom: -20px;
+    }
+    
+    .experience_item{
+    
+        box-shadow: 10px 15px 25px rgb(62, 119, 48);
+        width:40%;
+        padding: 4%;
+        margin: 5%;
+    
+    }
+    
+    #bady_web_dev{
+        border-image: radial-gradient( 27deg,rgb(75, 84, 105), rgb(23, 245, 245)) 30;
+        border-image-slice: 1;
+        border-left: 7px solid;
+        border-radius: 5%;
+    }
+    
+    #full_web_dev{
+    border-image:radial-gradient( 47deg,rgb(139, 46, 46), rgb(0, 33, 180)) 30;
+    border-image-slice: 1;
+    border-left: 7px solid;
+    border-radius: 5%;
+    
+    }
+    .experience_item h2{
+        margin:20px 0px 0px 0px;
+        color:rgb(151, 58, 58);
+        font-size:35px;
+        font-weight:700;
+        
+    }
+    
+    .experience_item h3{
+        color:rgb(243, 198, 115);
+        font-size:25px;
+        font-weight:600;
+    }
+    
+    
+    .experience_item p{
+        font-size:18px;
+        font-weight:300;
+        font-style: inherit;
+    }
+
+
+    .footer-part{
+        text-align: center;
+    }
+    
+    .footer-part p{
+        color:rgb(25, 26, 18);
+        font-weight:700;
+        font-style: italic;
+        font-size: 15px;
+    }
