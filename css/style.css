@@ -29,3 +29,58 @@ h1{
     display: flex;
 
 }
+.experience-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-area h1{
+    font-size:60px;
+    font-style: bold !important;
+    font-weight:700;
+    color:rgb(17, 0, 255);
+    margin-bottom: -20px;
+}
+
+.experience_item{
+
+    box-shadow: 10px 15px 25px rgb(62, 119, 48);
+    width:40%;
+    padding: 4%;
+    margin: 5%;
+
+}
+
+#bady_web_dev{
+    border-image: radial-gradient( 27deg,rgb(75, 84, 105), rgb(23, 245, 245)) 30;
+    border-image-slice: 1;
+    border-left: 7px solid;
+    border-radius: 5%;
+}
+
+#full_web_dev{
+border-image:radial-gradient( 47deg,rgb(139, 46, 46), rgb(0, 33, 180)) 30;
+border-image-slice: 1;
+border-left: 7px solid;
+border-radius: 5%;
+
+}
+.experience_item h2{
+    margin:20px 0px 0px 0px;
+    color:rgb(151, 58, 58);
+    font-size:35px;
+    font-weight:700;
+    
+}
+
+.experience_item h3{
+    color:rgb(243, 198, 115);
+    font-size:25px;
+    font-weight:600;
+}
+
+
+.experience_item p{
+    font-size:18px;
+    font-weight:300;
+    font-style: inherit;
+}
